@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="adra.css">
+        <title>Adra Chili</title>
+    </head>
+    <body>
+      <header>
+          <nav class="navbar">
+            <a class="logo" href="Adra-accueil.html"><img src="images/logo-adra.png" style="width: 50px;"/></a>
+            <div class="nav-links">
+
+              <ul>
+                <li><a class="nav-link active" aria-current="page" href="Adra-accueil.html">Accueil</a></li>
+                <li><a class="nav-link" href="Adra-accueil.html">Urgence</a></li>
+                <li><a class="nav-link" href="Adra-accueil.html">Evénements</a></li>
+                <li><a class="nav-link" href="https://www.helloasso.com/associations/adrafrance/formulaires/3">Donations</a></li>
+              </ul>
+            </div>
+            <button alt="Menu" type="button" class="menu" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewbox="0 0 16 16">
+              <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+              </svg>
+            </button>
+          </nav>
+      </header>
+      <script>
+        const menu = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+
+        menu.addEventListener('click',()=>{
+          navLinks.classList.toggle('mobile-menu')
+        })
+      </script>
+
+
+
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+    <h3>ADRA</h3>
+    <p class="footer-company-name"> Copyright © 2023 <strong>ADRA</strong> All rights reserved</p>
+  </div>
+
+  <div class="footer-center">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>30 Avenue Emile Zola,</span>
+          77190 Dammarie-les-Lys</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+33 1 64 79 31 50</p>
+    </div>
+  </div>
+
+  <div class="footer-right">
+    <div class="footer-medias">
+      <a href="https://www.facebook.com/adrafrance.fr"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/adrafrance/"><i class="fa fa-instagram"></i></a>
+      <a href="https://twitter.com/adrafrance?lang=fr"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.youtube.com/@adrafrance"><i class="fa fa-youtube"></i></a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

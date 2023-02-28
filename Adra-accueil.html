@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="adra.css">
         <title>Adra Chili</title>
     </head>
@@ -15,9 +16,9 @@
 
               <ul>
                 <li><a class="nav-link active" aria-current="page" href="Adra-accueil.html">Accueil</a></li>
-                <li><a class="nav-link" href="Adra-accueil.html">Evénements</a></li>
-                <li><a class="nav-link" href="Adra-accueil.html">Adra Chili</a></li>
-                <li><a class="nav-link" href="Adra-accueil.html">Donations</a></li>
+                <li><a class="nav-link" href="urgence.html">Urgence</a></li>
+                <li><a class="nav-link" href="evenements.html">Evénements</a></li>
+                <li><a class="nav-link" href="https://www.helloasso.com/associations/adrafrance/formulaires/3">Donations</a></li>
               </ul>
             </div>
             <button alt="Menu" type="button" class="menu" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -36,11 +37,64 @@
           navLinks.classList.toggle('mobile-menu')
         })
       </script>
-      <main>
 
+      <main class="content">
+
+        <div class="wrapper">
+          <div class="card">
+            <img src="images/urgence.jpg">
+            <div class="info">
+              <h2>Urgence</h2>
+              <p>Nos aides actuelles</p>
+              <a href="urgence.html" class="btn">Lire plus</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/evenements.jpg">
+            <div class="info">
+              <h2>Evénements</h2>
+              <p>Nos prochains événements</p>
+              <a href="evenements.html" class="btn">Lire plus</a>
+            </div>
+          </div>
+        </div>
+
+        <h1>ADRA, qui sommes nous ?</h1>
+          <p>L'Agence Adventiste de Développement et de Secours (ADRA) est une organisation humanitaire mondiale opérant dans plus de 130 pays à travers le monde. Elle a été fondée dans le but d'améliorer la qualité de vie des personnes, des familles et des communautés confrontées à la pauvreté et à la vulnérabilité, à travers la réalisation de projets sociaux avec une approche globale et durable.</p>
+          <p>Nous sommes la branche humanitaire mondiale de l'Église adventiste du septième jour, qui fait partie de la communauté adventiste de 20 millions de membres, avec des centaines de milliers d'églises à travers le monde, et le réseau le plus intégré et le plus vaste d'hôpitaux et d'établissements d'enseignement.
+
+            Nous apportons une aide caritative et mettons en œuvre des programmes de développement qui profitent aux individus dans plus de 130 pays, indépendamment de leur origine ethnique, de leur affiliation politique, de leur sexe ou de leur religion.
+            
+            En nous associant aux communautés locales, aux organisations et aux gouvernements, nous pouvons offrir des programmes culturellement pertinents et renforcer les capacités locales pour un changement durable.</p>
       </main>
-      <footer>
+      <footer class="footer-distributed">
 
+        <div class="footer-left">
+          <h3>ADRA</h3>
+          <p class="footer-company-name"> Copyright © 2023 <strong>ADRA</strong> All rights reserved</p>
+        </div>
+
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>30 Avenue Emile Zola,</span>
+                77190 Dammarie-les-Lys</p>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+33 1 64 79 31 50</p>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <div class="footer-medias">
+            <a href="https://www.facebook.com/adrafrance.fr"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/adrafrance/"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/adrafrance?lang=fr"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@adrafrance"><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
       </footer>
     </body>
     </html>
